@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+    <p>Name: <br><input type="name"></p>
+    <p>Email:<br><input type="email" name="email" id="email"></p>
+    <p>Phone:<br><input type="tel" name="phone" id="phone"></p>
+    <p>Resume:<br><input type="file" name="resume" id="resume"></p>
+    <p>Experience (Year):<br><input type="number" name="exp_year" id="exp_year" min="0" max="50" value="0"></p>
+
+    <fieldset>
+        <legend>Topics of Interest</legend>
+        <p>HTML<br> <input type="checkbox" name="topics_of_interest" id="topics_of_interest"><br> CSS<br> <input type="checkbox" name="tppics_of_interest" id="topics_of_interest"><br> Java Script<br> <input type="checkbox" name="topics_of_interest" id="topics_of_interest"></p>
+    </fieldset>
+
+    <p>Highest Education:<br>
+    <select name="" id="">
+        <option value="high_school">High School</option>
+        <option value="Inter">Intermidiate</option>
+        <option value="greduation">Greduation</option>
+        <option value="master">Post-Graduation</option>
+        <option value="other">Other</option>
+    </select></p>
+
+    <p>Availability:<br> <input type="radio" name="availability" id="availability"></p>
+    <p>Full-Time<br> <input type="radio" name="full_time" id="full_time"></p>
+    <p>Part-Time</p>
+
+    <p>Additional Comments:<br> <textarea name="addcomments" id="addcomments" cols="50" rows="10"></textarea></p>
+</body>
+</html>
